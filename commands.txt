@@ -1,0 +1,8 @@
+heroku login
+git init
+heroku git:remote your_appname
+git config user.name "your_heroku_username"
+git config user.email "your_heroku_email"
+git add .
+git commit -am "First Commit"
+git push -u heroku master
